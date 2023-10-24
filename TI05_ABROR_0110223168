@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout</title>
+</head>
+<body>
+
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: 'poppins',sans-serif;
+        }
+
+        .head{
+            display: flex;
+            background: #00008b;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .head h2{
+            color: white;
+        }
+
+        .navigation {
+            padding: 20px 10%;
+            display: flex;
+            justify-content: space-between;
+            background: #1E90FF;
+        }
+
+        .navigation a{
+            text-decoration: none;
+            font-size: 18px;
+            color: white;
+            
+        }
+    </style>
+    <header class="head">
+        <h2><img src="fs.jpeg" alt="foto sepatu" width="50px" height="50px">Abror Shoes</h2>
+        </header>
+        
+        <nav class="navigation">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Services</a>
+            <a href="">Contact</a>
+        </nav>
+        <main style="display:flex; margin:10px 0;">
+            <article style="background-color:beige; border: 2px solid black; margin-right: 10px; width:75%;">
+                <section style="background-color:rgb(201, 201, 201); border: 2px solid black; margin: 10px 20px;">Bagian 1: Sejarah Sepatu
+                    Sejak zaman kuno, sepatu telah menjadi bagian penting dari kehidupan manusia. Penemuan sepatu pertama kali terjadi sekitar 10.000 tahun yang lalu, yang membuat manusia dapat melindungi kaki mereka dari berbagai elemen alam dan bahaya. Pada awalnya, sepatu sederhana terbuat dari kulit binatang dan daun, tetapi seiring berjalannya waktu, desain dan bahan sepatu berkembang pesat. Dari sepatu kayu abad pertengahan hingga sepatu olahraga canggih yang kita kenal saat ini, sejarah sepatu mencerminkan perkembangan teknologi dan gaya hidup manusia.</section>
+                <section style="background-color:rgb(201, 201, 201); border: 2px solid black; margin: 10px 20px;">Bagian 2: Fungsi Sepatu dalam Kehidupan Modern
+                    Di era modern, sepatu telah menjadi lebih dari sekadar pelindung kaki. Mereka adalah pernyataan gaya, peralatan olahraga, dan kadang-kadang karya seni. Sepatu memiliki peran penting dalam dunia fashion, dengan berbagai merek dan desain yang memengaruhi tren tahunan. Di dunia olahraga, sepatu dirancang khusus untuk meningkatkan performa atlet dalam berbagai cabang olahraga, seperti sepatu lari, sepatu bola, dan sepatu basket. Di samping itu, sepatu juga digunakan untuk keperluan khusus, seperti sepatu hiking yang tahan air dan sepatu kerja dengan perlindungan khusus.</section>
+                <section style="background-color:rgb(201, 201, 201); border: 2px solid black; margin: 10px 20px;">Bagian 3: Inovasi Terkini dalam Desain Sepatu
+                    Industri sepatu terus berkembang dengan penemuan dan inovasi baru. Salah satu tren terkini adalah sepatu ramah lingkungan yang menggunakan bahan daur ulang dan proses produksi yang lebih berkelanjutan. Teknologi canggih juga telah memasuki dunia sepatu, dengan sepatu pintar yang dapat mengukur aktivitas fisik dan memberikan informasi kepada pengguna. Desainer sepatu terkenal terus menciptakan karya seni yang unik dan menggabungkan unsur-unsur baru dalam desain sepatu mereka. Dengan inovasi terus berlanjut, sepatu akan terus menjadi bagian penting dari kehidupan manusia.
+                    </section>
+            </article>
+            <aside style="background-color:rgb(117, 117, 117); border: 2px solid black; width: 25%;">
+            <img src="https://3.bp.blogspot.com/-qSmn96VLjsU/ThdYGIgvtWI/AAAAAAAAApY/3bunLUpeQWI/s1600/Sepatu+Converse+All+Star-1.JPG" alt="foto" height="300px" width="380px">
+            <iframe width="380" height="200" src="https://www.youtube.com/embed/aUzoMB0Mf30?si=HMbpeXhDpdkXg8aS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </aside>
+        </main>
+        <footer style="background-color:rgb(117, 117, 117); border: 2px solid black;">
+            <h3 align="center" style="color: white;">Developed By Abror Pratama | 2023</h3>
+        </footer>
+        </body>
+        </html>
+</body>
+</html>
